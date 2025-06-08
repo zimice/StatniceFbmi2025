@@ -10,7 +10,7 @@ Lidské oko je smyslový orgán, který umožňuje vnímání světla a barev. H
 4. **Sklivec**
 5. **Sítnice**
 
-![Anatomie oka](https://prod-files-secure.s3.us-west-2.amazonaws.com/ee12890e-52c6-4cd6-ab27-fac900210de5/5a35bcce-e079-433a-89f5-c29153602484/Untitled.png)
+![Anatomie oka](img/anatomieOka.png)
 
 **Jasová citlivost oka** popisuje schopnost oka detekovat různé úrovně osvětlení, nejcitlivější je při středním jasu. Tento fenomén je důležitý pro kalibraci obrazových zařízení a pro design osvětlení tak, aby odpovídal lidskému vnímání.
 
@@ -30,7 +30,7 @@ Proces zobrazení zahrnuje několik kroků:
 3. **Zpracování obrazu** – různé algoritmy zlepšují kvalitu, detekují objekty či analyzují obraz.
 4. **Zobrazení** – výsledek je vizualizován na monitoru či jiném zařízení.
 
-![Schéma procesu zobrazení](https://prod-files-secure.s3.us-west-2.amazonaws.com/ee12890e-52c6-4cd6-ab27-fac900210de5/9d9652c6-ccb7-4998-9863-50e4c6b9d3fa/Untitled.png)
+![Schéma procesu zobrazení](img/schemaProcesuZobrazeni.png)
 
 ## Sběr obrazových dat, vzorkování a kvantizace
 

@@ -1,4 +1,4 @@
-# Návrh a vývoj mobilních aplikací
+# 10. Návrh a vývoj mobilních aplikací
 
 ## Vývojové platformy (iOS, Android, cross-platform)
 

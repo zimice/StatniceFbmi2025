@@ -1,4 +1,4 @@
-# Modelování a simulace
+# 7. Modelování a simulace
 
 **Modelování** je proces vytváření zjednodušeného obrazu reálného systému s cílem jej lépe pochopit, analyzovat nebo předvídat jeho chování.
 

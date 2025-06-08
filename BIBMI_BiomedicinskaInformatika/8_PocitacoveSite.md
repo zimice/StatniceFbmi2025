@@ -1,4 +1,4 @@
-# Počítačové sítě
+# 8. Počítačové sítě
 
 ## Architektura počítačových sítí
 
