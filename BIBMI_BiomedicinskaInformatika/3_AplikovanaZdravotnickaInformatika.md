@@ -1,6 +1,19 @@
+---
+author: "Šimon Kochánek"
+date: "15/6/2025"
+output: pdf_document
+fontsize: 10.5pt
+---
+
+<style type="text/css">
+  body{
+    font-size: 10.5pt;
+  }
+</style>
+
 # Aplikovaná zdravotnická informatika
 
-## Data, informace a znalosti v medicíně
+### Data, informace a znalosti v medicíně
 
 Ve zdravotnictví hraje zásadní roli rozlišování mezi daty, informacemi a znalostmi:
 
@@ -8,20 +21,20 @@ Ve zdravotnictví hraje zásadní roli rozlišování mezi daty, informacemi a z
 - **Informace** vznikají uspořádáním a interpretací dat. Například když se k naměřené hodnotě přidá čas a kontext (kdo byl měřen, v jakém stavu), dostáváme smysluplnou informaci.
 - **Znalosti** představují porozumění informacím v širším kontextu, jejich propojení s vědeckými poznatky a zkušeností – umožňují rozhodování v konkrétních situacích, např. volbu správné léčby na základě předchozích případů a aktuálního vývoje medicíny.
 
-## Doporučené lékařské postupy
+### Doporučené lékařské postupy
 
 - Systematicky vypracované dokumenty, které určují optimální způsoby diagnostiky, léčby a péče o pacienta při různých diagnózách.
 - Jsou vytvářeny na základě aktuálních vědeckých důkazů, klinických studií i zkušeností odborníků.
 - Cílem je standardizovat péči, zvýšit její kvalitu a bezpečnost, snížit riziko chyb a nejednotnosti mezi jednotlivými pracovišti.
 - Uplatňování těchto postupů umožňuje poskytovat léčbu, která je ověřená a vysoce efektivní.
 
-## Medicína založená na důkazech (Evidence Based Medicine, EBM)
+### Medicína založená na důkazech (Evidence Based Medicine, EBM)
 
 - Přístup, který integruje nejlepší dostupné vědecké důkazy s klinickou zkušeností lékaře a preferencemi pacienta.
 - EBM zahrnuje systematické vyhledávání, kritické hodnocení a aplikaci relevantních studií do praxe.
 - Pomáhá lékařům činit rozhodnutí, která jsou podložena vědecky ověřenými poznatky a zároveň jsou přizpůsobena konkrétnímu pacientovi.
 
-## Základy biomedicínské statistiky
+### Základy biomedicínské statistiky
 
 Biomedicínská statistika je vědní disciplína, která umožňuje analyzovat, interpretovat a vyhodnocovat medicínská data:
 
@@ -30,11 +43,11 @@ Biomedicínská statistika je vědní disciplína, která umožňuje analyzovat,
 - **Korelace a regrese** hledají vztahy a závislosti mezi proměnnými.
 - Statistická analýza je základem pro rozhodování na základě dat a umožňuje vědecky hodnotit účinnost léčby, nové postupy či rizikové faktory.
 
-## Počítačová bezpečnost a informační systémy ve zdravotnictví
+### Počítačová bezpečnost a informační systémy ve zdravotnictví
 
 Počítačová bezpečnost ve zdravotnictví zahrnuje ochranu zdravotnických dat i samotných informačních systémů před neoprávněným přístupem, zneužitím, ztrátou či kybernetickými útoky.
 
-### Klíčové prvky bezpečnosti:
+#### Klíčové prvky bezpečnosti:
 
 - **Autentifikace:** Ověření identity uživatele (například heslem, kartou, otiskem prstu).
 - **Autorizace:** Nastavení práv a oprávnění uživatelů k různým datům a funkcím.
@@ -43,7 +56,7 @@ Počítačová bezpečnost ve zdravotnictví zahrnuje ochranu zdravotnických da
 - **Firewall, antivirus:** Ochrana před neoprávněným vstupem a škodlivým softwarem.
 - **Bezpečnostní protokoly:** Standardizované způsoby bezpečné komunikace (HTTPS, SSL/TLS).
 
-## Ochrana a zabezpečení dat
+### Ochrana a zabezpečení dat
 
 Ochrana dat ve zdravotnictví se zaměřuje na důvěrnost, integritu a dostupnost zdravotnických údajů:
 
@@ -51,7 +64,7 @@ Ochrana dat ve zdravotnictví se zaměřuje na důvěrnost, integritu a dostupno
 - **Integrita (Integrity):** Zajištění, že data nebyla neoprávněně změněna nebo poškozena.
 - **Dostupnost (Availability):** Zajištění, že data budou v případě potřeby rychle dostupná oprávněným osobám.
 
-## Archivace dat
+### Archivace dat
 
 - **Cíl:** Dlouhodobé uchovávání lékařských záznamů a dalších důležitých dat.
 
@@ -61,7 +74,19 @@ Ochrana dat ve zdravotnictví se zaměřuje na důvěrnost, integritu a dostupno
 - **Bezpečnost:** Prevence neoprávněného přístupu.
 - **Dostupnost:** Snadný přístup pro budoucí použití (léčba, výzkum, právní účely).
 
-## Zdravotnický profesionalizmus a ochrana osobních údajů
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+### Zdravotnický profesionalizmus a ochrana osobních údajů
 
 Profesionalizmus ve zdravotnictví zahrnuje nejen odborné a etické chování zdravotníků, ale také respektování práv pacientů:
 
@@ -69,7 +94,7 @@ Profesionalizmus ve zdravotnictví zahrnuje nejen odborné a etické chování z
 - Platí zde přísné právní předpisy (například GDPR), které vyžadují správné nakládání s osobními daty, jejich zabezpečení a minimalizaci rizik zneužití.
 - Každý zdravotník je povinen zachovávat mlčenlivost a chránit informace před třetími osobami.
 
-## Standardizace a klasifikační systémy v medicíně
+### Standardizace a klasifikační systémy v medicíně
 
 Aby bylo možné efektivně sdílet, analyzovat a porovnávat zdravotnická data, používají se standardy a klasifikační systémy:
 
@@ -79,7 +104,7 @@ Aby bylo možné efektivně sdílet, analyzovat a porovnávat zdravotnická data
 - **MeSH (Medical Subject Headings):** Strukturovaný slovník pro indexování biomedicínské literatury.
 - **SNOMED CT:** Rozsáhlý systém klinických termínů pro detailní popis diagnóz, procedur i zdravotních stavů.
 
-## Elektronický zdravotní záznam (EHR)
+### Elektronický zdravotní záznam (EHR)
 
 **Elektronický zdravotní záznam (EHR, Electronic Health Record)** je digitální verze kompletní dokumentace o pacientovi:
 
@@ -87,7 +112,7 @@ Aby bylo možné efektivně sdílet, analyzovat a porovnávat zdravotnická data
 - Umožňuje snadné sdílení informací mezi různými zdravotnickými zařízeními.
 - Přináší výhody jako zlepšení kvality péče (dostupnost úplných údajů), zvýšení efektivity a snížení administrativní zátěže a chyb.
 
-## Standardy (OpenEHR, CEN, HL7)
+### Standardy (OpenEHR, CEN, HL7)
 
 Pro interoperabilitu (vzájemnou komunikaci systémů) a kvalitu dat se využívají mezinárodní standardy:
 
@@ -111,7 +136,7 @@ PV1||O|168219C~PMA^^^^^^^^^||||277^ALLEN MYLASTNAME^BONNIE^^^^|||||||||| ||26886
 - **NK1 (Next of Kin):** Kontaktní údaje na nejbližší příbuzné pacienta.
 - **PV1 (Patient Visit):** Informace o hospitalizaci pacienta, například přiřazené umístění a doporučující lékař.
 
-## Systémy pro podporu rozhodování
+### Systémy pro podporu rozhodování
 
 Systémy na podporu rozhodování (DSS) v medicíně poskytují lékařům nástroje k zlepšení rozhodování. DSS mohou zahrnovat:
 
@@ -119,7 +144,7 @@ Systémy na podporu rozhodování (DSS) v medicíně poskytují lékařům nást
 - **Upozornění a výstrahy:** Upozornění na možné lékové interakce nebo alergie.
 - **Analýza údajů:** Pokročilá analýza k identifikaci vzorů a trendů v datech pacientů.
 
-## Medicínské informační zdroje
+### Medicínské informační zdroje
 
 Mezi lékařské informační zdroje patří databáze, knihovny a online nástroje, které poskytují přístup k vědeckým článkům, klinickým studiím a dalším relevantním informacím:
 
@@ -127,7 +152,7 @@ Mezi lékařské informační zdroje patří databáze, knihovny a online nástr
 - **Cochrane Library:** Systematické přehledy a metaanalýzy.
 - Další specializované databáze (Embase, Scopus atd.).
 
-## Kvalita zdravotnických informací na internetu
+### Kvalita zdravotnických informací na internetu
 
 Kvalita zdravotních informací na internetu je klíčová pro poskytování správných informací pro pacienty a zdravotnické pracovníky. Hodnocení kvality zahrnuje:
 

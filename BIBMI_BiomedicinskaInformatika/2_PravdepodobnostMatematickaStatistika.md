@@ -1,4 +1,17 @@
-# Pravděpodobnost a matematická statistika
+---
+author: "Šimon Kochánek"
+date: "15/6/2025"
+output: pdf_document
+fontsize: 10.5pt
+---
+
+<style type="text/css">
+  body{
+    font-size: 10.5pt;
+  }
+</style>
+
+# 2. Pravděpodobnost a matematická statistika
 
 ## Náhodná veličina: diskrétní a spojité rozdělení, distribuční funkce, pravděpodobnostní funkce, hustota
 
@@ -6,19 +19,19 @@ Náhodná veličina je proměnná, jejíž hodnota závisí na výsledku náhodn
 
 Rozlišujeme dva typy:
 
-- **Diskrétní náhodná veličina**  
+- Diskrétní náhodná veličina  
   Nabývá jen určitých (napočitatelných) hodnot, např. počet vržených šestek při 10 hodech kostkou.
 
-- **Spojitá náhodná veličina**  
+- Spojitá náhodná veličina  
   Může nabývat libovolných hodnot v intervalu, např. tělesná výška člověka.
 
 ### Pravděpodobnostní funkce (PMF) a hustota pravděpodobnosti (PDF)
 
-- **Pravděpodobnostní funkce**  
+- Pravděpodobnostní funkce  
   \( p(x) = P(X = x) \)  
   Je definovaná pro diskrétní veličiny. U každé hodnoty \( x \) říká, jaká je pravděpodobnost, že ji veličina nabude.
 
-- **Hustota pravděpodobnosti**  
+- Hustota pravděpodobnosti  
   \( f(x) \)  
   Používá se pro spojité veličiny. Pravděpodobnost, že veličina spadne do intervalu \([a, b]\), je  
   \( \int_a^b f(x) dx \).  
@@ -26,12 +39,18 @@ Rozlišujeme dva typy:
 
 ### Distribuční funkce
 
-- **Distribuční funkce**  
+- Distribuční funkce  
   \( F(x) = P(X \leq x) \)  
   Udává kumulativní pravděpodobnost, že veličina je menší nebo rovna \( x \).
 
   - Pro diskrétní veličiny má tvar schodovité funkce (skoky odpovídají jednotlivým hodnotám).
   - Pro spojité veličiny je spojitá a plynule roste.
+
+  
+
+  
+
+  
 
 ## Kvantily, střední hodnota, rozptyl
 
@@ -105,21 +124,19 @@ Rozlišujeme dva typy:
 - \( H_0 \): pozorované frekvence odpovídají očekávaným.
 - \( H_1 \): neodpovídají.
 
-### Výpočet statistiky
-
-\[
-\chi^2 = \sum_{i=1}^{n} \frac{(O_i - E_i)^2}{E_i}
-\]
-
-kde \( O_i \) je pozorovaná a \( E_i \) očekávaná četnost.
-
-Porovnává se s kritickou hodnotou z chi-kvadrát rozdělení.
-
 ## Variabilita a normálnost dat
 
 - **Variabilita:** měří rozptyl hodnot v datech – základní ukazatele jsou rozptyl, směrodatná odchylka, interkvartilové rozpětí (IQR).
 - **Normálnost dat:** ověřuje se pomocí statistických testů (Shapiro-Wilk, Kolmogorov-Smirnov), případně graficky (histogram, Q-Q plot).
 - Pro normální rozdělení je typická zvonovitá křivka; většina statistických testů předpokládá normalitu dat.
+
+  
+
+  
+
+  
+
+  
 
 ## Typy experimentálních a observačních studií
 

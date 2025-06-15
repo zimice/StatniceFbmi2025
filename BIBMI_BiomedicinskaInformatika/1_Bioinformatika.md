@@ -1,4 +1,17 @@
-# Bioinformatika
+---
+author: "Šimon Kochánek"
+date: "15/6/2025"
+output: pdf_document
+fontsize: 10.5pt
+---
+
+<style type="text/css">
+  body{
+    font-size: 10.5pt;
+  }
+</style>
+
+# 1. Bioinformatika
 
 ## Biologická data a jejich typy
 
@@ -39,9 +52,16 @@ Replikace je proces, kdy vzniká přesná kopie DNA před dělením buňky:
 - Elongace: DNA polymeráza syntetizuje nové vlákno.
 - Terminace: Oddělení dvou molekul DNA po dokončení kopírování.
 
+  
+
+  
+
+
 ## Biologické databáze
 
-Biologické databáze uchovávají, organizují a zpřístupňují rozsáhlé soubory dat (sekvenování genomů, analýza proteinů aj.). Mezi nejvýznamnější patří:
+Biologické databáze uchovávají, organizují a zpřístupňují rozsáhlé soubory dat (sekvencování genomů, analýza proteinů aj.). 
+
+Mezi nejvýznamnější patří:
 
 - GenBank (sekvence nukleových kyselin)
 - Protein Data Bank (PDB) (3D struktury proteinů)
@@ -76,6 +96,10 @@ BLAST (Basic Local Alignment Search Tool) je nejrozšířenější nástroj pro 
 
 Dotplot je grafická metoda pro porovnání dvou sekvencí. Na osách jsou znaky obou sekvencí, v místech shody je tečka. Diagonály označují podobné úseky; lze odhalit inverze, duplikace, posuny.
 
+  
+
+  
+
 ## Homologie, ortologie a paralogie
 
 - Homologie: sekvence mají společného předka
@@ -100,17 +124,18 @@ Moderní přístupy (např. AlphaFold) využívají kombinace algoritmů a stroj
 
 ## Substituční matice BLOSUM
 
-BLOSUM (BLOcks SUbstitution Matrix): sada substitučních matic pro zarovnávání proteinů. Odvozeny z bloků evolučně diverzifikovaných sekvencí; umožňují hodnotit pravděpodobnost záměn aminokyselin při evoluci. Např. BLOSUM62 je vhodná pro blízké příbuznosti.
+BLOSUM (BLOcks SUbstitution Matrix): sada substitučních matic pro zarovnávání proteinů. Odvozeny z bloků evolučně diverzifikovaných sekvencí; umožňují hodnotit pravděpodobnost záměn aminokyselin při evoluci. Např. BLOSUM62 vhodná pro blízké příbuznosti.
 
 ## Predikce sekundární struktury proteinů
 
-- Sekundární struktura = alfa-helixy, beta-listy, smyčky
-- Metody predikce: Chou-Fasman, GOR – využívají pravděpodobnosti výskytu aminokyselin v daném typu struktury.
+Sekundární struktura = alfa-helixy, beta-listy, smyčky
+
+Metody predikce: Chou-Fasman, GOR – využívají pravděpodobnosti výskytu aminokyselin v daném typu struktury.
 
 ## Multiple Sequence Alignment (MSA)
 
 MSA znamená zarovnání tří a více sekvencí současně. Pomáhá najít konzervované (důležité) oblasti pro evoluční studie, funkční anotace i predikci proteinových struktur.
 
-- Progresivní metody: např. CLUSTAL
-- HMM metody: využití skrytých Markovovských modelů
+Progresivní metody: např. CLUSTAL
 
+HMM metody: využití skrytých Markovovských modelů

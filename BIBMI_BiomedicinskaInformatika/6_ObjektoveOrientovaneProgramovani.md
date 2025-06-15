@@ -1,4 +1,4 @@
-# Objektově orientované programování
+# 6. Objektově orientované programování
 
 ## Základy objektového programování (zapouzdření, dědičnost, polymorfismus)
 
