@@ -1,3 +1,16 @@
+---
+author: "Šimon Kochánek"
+date: "25/6/2025"
+output: pdf_document
+fontsize: 10.5pt
+---
+
+<style type="text/css">
+  body{
+    font-size: 10.5pt;
+  }
+</style>
+
 # 9. Softwarové inženýrství
 
 ## Pokročilé VCS – GIT
@@ -27,6 +40,23 @@ Hlavní typy testů zahrnují:
 
 V moderním vývoji se často využívá **automatizované testování**, kdy jsou testy pravidelně spouštěny například v rámci CI/CD pipeline.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Principy tvorby software formou open source
 
 **Open source** představuje filozofii vývoje, kde je zdrojový kód veřejně dostupný, každý jej může studovat, měnit a sdílet.
@@ -53,6 +83,25 @@ Ve vývoji se často uplatňují agilní metodiky (např. Scrum, Kanban), které
 
 Kromě toho se často využívají nástroje pro správu požadavků (Jira, Trello), diagramy UML pro vizualizaci systému a automatizace sestavování a testování v CI/CD.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Continuous integration/continuous delivery
 
 **Continuous Integration (CI)** znamená pravidelné začleňování změn kódu do sdíleného repozitáře, kde se změny ihned automaticky sestavují a testují. Cílem je rychle odhalit chyby, zamezit konfliktům a zvýšit kvalitu výsledného softwaru.
@@ -78,6 +127,20 @@ Klíčové aspekty architektury a realizace:
 - **Uživatelská přívětivost:** Různorodí uživatelé (lékaři, sestry, administrativní pracovníci) musí být schopni systém efektivně ovládat, rozhraní by mělo být intuitivní.
 - **Dostupnost a zálohování:** Data musejí být dostupná 24/7, systém musí mít zálohování a obnovu v případě havárie.
 - **Podpora zdravotnických procesů:** Sledování pacientů, elektronická dokumentace, upozornění na důležité události.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Analýza požadavků
 
@@ -106,6 +169,26 @@ Zásady návrhu architektury:
 - **Škálovatelnost:** Systém musí být připraven růst (více uživatelů, více dat).
 - **Rozhraní (API):** Definice způsobů komunikace s jinými systémy.
 - **Dokumentace:** Architektura musí být srozumitelně popsána pro další vývojáře a správce.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Design komponent systému
 

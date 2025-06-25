@@ -1,3 +1,16 @@
+---
+author: "Šimon Kochánek"
+date: "25/6/2025"
+output: pdf_document
+fontsize: 10.5pt
+---
+
+<style type="text/css">
+  body{
+    font-size: 10.5pt;
+  }
+</style>
+
 # 7. Modelování a simulace
 
 **Modelování** je proces vytváření zjednodušeného obrazu reálného systému s cílem jej lépe pochopit, analyzovat nebo předvídat jeho chování.
@@ -102,9 +115,7 @@ Dvoudruhové modely se zaměřují na interakci mezi dvěma různými populacemi
 
 Model Lotky–Volterry je klasickým příkladem nelineárního systému dvou diferenciálních rovnic pro vztah dravců a kořisti:
 
-$\frac{dN}{dt} = rN - aNP$ 
-
-$\frac{dP}{dt} = baNP - mP$
+$\frac{dN}{dt} = rN - aNP$                 $\frac{dP}{dt} = baNP - mP$
 
 kde $N$ je počet kořisti, $P$ počet dravců, $r$ je růst kořisti, $a$ je míra predace, $b$ je účinnost využití kořisti, $m$ je úmrtnost dravců.
 
@@ -145,6 +156,20 @@ Do modelu je přidána skupina „přenašeči“ (např. komáři u malárie), 
 **SIR s vakcinací:**
 
 Přidává účinek očkování – očkovaní lidé přecházejí rovnou do skupiny imunních (R), takže se nemohou nakazit ani nemoc šířit.
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
 
 ## Modely farmakokinetiky a dávkování léčiv
 

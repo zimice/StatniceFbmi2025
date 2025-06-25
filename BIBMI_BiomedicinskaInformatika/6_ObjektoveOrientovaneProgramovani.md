@@ -1,3 +1,16 @@
+---
+author: "Šimon Kochánek"
+date: "25/6/2025"
+output: pdf_document
+fontsize: 10.5pt
+---
+
+<style type="text/css">
+  body{
+    font-size: 10.5pt;
+  }
+</style>
+
 # 6. Objektově orientované programování
 
 ## Základy objektového programování (zapouzdření, dědičnost, polymorfismus)
@@ -16,7 +29,24 @@ Dědičnost umožňuje, aby nová třída (potomek) převzala (zdědila) vlastno
 
 Polymorfismus znamená, že objekty různých tříd mohou sdílet stejné rozhraní (například metodu `vypiš()`), ale chovat se odlišně podle svého konkrétního typu. Polymorfismus může být statický (přetížení metod – stejný název, různé parametry) nebo dynamický (přepsání metod – potomek poskytuje vlastní implementaci metody z předka).
 
----
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Virtuální stroj (.NET Framework)
 
@@ -28,8 +58,6 @@ Polymorfismus znamená, že objekty různých tříd mohou sdílet stejné rozhr
 - **Bezpečnost:** CLR zajišťuje správu paměti a chrání před neautorizovaným přístupem.
 - **Interoperabilita:** .NET Framework podporuje více jazyků (např. C#, Visual Basic .NET, F#), které se všechny překládají do CIL.
 - **Bohatá knihovna tříd:** Vývojáři mohou využívat široké spektrum funkcí bez nutnosti vše psát od začátku.
-
----
 
 ## Ukládání dat v paměti (halda, zásobník)
 
@@ -43,14 +71,9 @@ Zásobník je rychlá paměťová oblast, kde se ukládají lokální proměnné
 
 Halda je paměťová oblast určená pro dynamickou alokaci objektů, které mohou žít nezávisle na rámci funkcí. Objekty na haldě vytváříme většinou pomocí klíčového slova `new`. Přístup k datům na haldě je pomalejší a jejich životnost řídí správce paměti (garbage collector).
 
----
-
 ## Garbage Collector
 
 **Garbage Collector (GC)** je automatický mechanismus pro správu paměti v prostředí .NET Framework (a podobných virtuálních strojích). Jeho hlavní úlohou je sledovat, které objekty na haldě již nejsou využívané (tj. neexistuje na ně žádná reference), a tuto paměť automaticky uvolnit.
-
-**Princip:**  
-Programátor nemusí explicitně uvolňovat objekty – GC v pravidelných intervalech prochází paměť, hledá „osiřelé“ objekty (bez referencí) a uvolňuje je.
 
 **Výhoda:**  
 Minimalizuje riziko „memory leaků“ (úniků paměti) a zjednodušuje správu paměti.

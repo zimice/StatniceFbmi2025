@@ -1,3 +1,16 @@
+---
+author: "Šimon Kochánek"
+date: "25/6/2025"
+output: pdf_document
+fontsize: 10.5pt
+---
+
+<style type="text/css">
+  body{
+    font-size: 10.5pt;
+  }
+</style>
+
 # 10. Návrh a vývoj mobilních aplikací
 
 ## Vývojové platformy (iOS, Android, cross-platform)

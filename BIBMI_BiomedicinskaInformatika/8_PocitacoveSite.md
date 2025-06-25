@@ -1,3 +1,16 @@
+---
+author: "Šimon Kochánek"
+date: "25/6/2025"
+output: pdf_document
+fontsize: 10.5pt
+---
+
+<style type="text/css">
+  body{
+    font-size: 10.5pt;
+  }
+</style>
+
 # 8. Počítačové sítě
 
 ## Architektura počítačových sítí
@@ -15,8 +28,6 @@ Referenční model **ISO/OSI** (Open Systems Interconnection) je teoretický rá
 5. **Relační vrstva:** Správa relací a spojení mezi aplikacemi.
 6. **Prezentační vrstva:** Převod a šifrování dat do formátu srozumitelného pro aplikace.
 7. **Aplikační vrstva:** Síťové aplikace a jejich protokoly (HTTP, FTP, SMTP).
-
-Model slouží jako referenční rámec pro návrh a pochopení síťových technologií.
 
 ## Síťový model TCP/IP
 
@@ -73,6 +84,10 @@ Kvůli nedostatku adres se využívá NAT a vznikl nový standard IPv6.
 **IPv6** používá 128bitové adresy (např. 2001:0db8:85a3:0000:0000:8a2e:0370:7334), což umožňuje obrovský počet unikátních adres a řeší omezení IPv4.
 
 Navíc podporuje nové mechanismy (automatickou konfiguraci, zabudované zabezpečení, multicast), zjednodušuje směrování a odstranil potřebu NAT.
+  
+
+
+
 
 ## Multicast a unicast
 
@@ -106,6 +121,11 @@ Navíc podporuje nové mechanismy (automatickou konfiguraci, zabudované zabezpe
 **UDP (User Datagram Protocol):** Rychlý, nespolehlivý, nespojovaný protokol. Vhodný pro aplikace, kde je důležitá rychlost a nevadí ztráta paketů (streamování, VoIP, online hry).
 
 **TCP (Transmission Control Protocol):** Spolehlivý, spojovaný protokol. Poskytuje řízení toku, opětovné odesílání ztracených paketů a zajišťuje pořadí doručení. Používá se tam, kde je vyžadována spolehlivost (web, e-mail, přenos souborů).
+  
+
+
+
+
 
 ## NAT
 
@@ -142,7 +162,15 @@ Navíc podporuje nové mechanismy (automatickou konfiguraci, zabudované zabezpe
 - **Client-to-Site:** Umožňuje vzdálenému zařízení připojit se do sítě.
 
 Nejčastější protokoly: **IPSec**, **L2TP**, **OpenVPN**.
+  
+  
 
+
+
+
+
+
+  
 ## Bezdrátové technologie (WiFi router, architektura bezdrátové sítě, Bluetooth)
 
 **WiFi router:** Přístupový bod pro bezdrátovou síť, často v domácnosti či kanceláři, používá standardy IEEE 802.11.
