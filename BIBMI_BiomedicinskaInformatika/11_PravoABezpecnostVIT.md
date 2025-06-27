@@ -38,6 +38,11 @@ Digitální podpis je elektronický ekvivalent vlastnoručního podpisu, který 
 ## Časové razítko
 
 Elektronický údaj, který potvrzuje čas vytvoření nebo změny dokumentu. Slouží k prokázání existence dokumentu v daném čase a ochraně proti zpětným změnám.
+  
+  
+
+
+
 
 ## Elektronická pečeť
 
@@ -68,6 +73,12 @@ Elektronické zdravotní záznamy se pravidelně zálohují a chrání proti ztr
 ## Ochrana osobních a citlivých údajů v IT
 
 Ochrana údajů v IT zahrnuje šifrování, anonymizaci, kontrolu přístupu a pravidelné bezpečnostní audity. Organizace musí zavést technická a organizační opatření na ochranu údajů před neoprávněným přístupem a zneužitím.
+  
+
+
+
+
+
 
 ## Zákon o ochraně osobních údajů v současném znění, GDPR
 
@@ -94,7 +105,17 @@ Outsourcing IT služeb zahrnuje smluvní ujednání mezi klientem a poskytovatel
 ## Zákon č. 365/2000 Sb. – o informačních systémech veřejné správy a o změně některých dalších zákonů
 
 Zákon o informačních systémech veřejné správy upravuje povinnosti a práva při používání informačních systémů ve veřejné správě. Zákon stanovuje standardy interoperability, bezpečnosti a ochrany údajů v systémech veřejné správy.
+  
 
+
+
+
+
+
+
+
+
+  
 ## Zákon č. 480/2004 Sb. – o některých službách informační společnosti
 
 Zákon o některých službách informační společnosti upravuje poskytování elektronických komunikačních služeb a ochranu osobních údajů v online prostředí.

@@ -36,7 +36,26 @@ Operační systémy iOS a Android jsou dvě hlavní platformy pro vývoj mobiln�
 - Frameworky: Flutter (Dart), React Native (JavaScript/TypeScript), Xamarin (C#), Unity (hlavně pro hry).
 - Jeden kód lze spustit na iOS i Androidu, což šetří čas a náklady.
 - **Nevýhoda:** Ne vždy plný přístup k nativním funkcím, případně složitější optimalizace a horší výkon v porovnání s nativním vývojem.
+  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 ## Vývojové prostředí, historie a trendy
 
 **iOS**
