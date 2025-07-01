@@ -1,6 +1,6 @@
 ---
 author: "Šimon Kochánek"
-date: "15/6/2025"
+date: "29/6/2025"
 output: pdf_document
 fontsize: 10.5pt
 ---
@@ -176,13 +176,17 @@ Rozlišujeme dva typy:
 
   - Pro diskrétní veličiny má tvar schodovité funkce (skoky odpovídají jednotlivým hodnotám).
   - Pro spojité veličiny je spojitá a plynule roste.
-
   
-
   
-
   
-
+  
+  
+  
+  
+  
+  
+  
+  
 ## Kvantily, střední hodnota, rozptyl
 
 ### Kvantily
@@ -303,6 +307,13 @@ EBM je systematický přístup, který spojuje:
 4. **Aplikace důkazů** do konkrétní klinické praxe s ohledem na individuální situaci pacienta.
 5. **Hodnocení výsledků a zpětná vazba**.
 
+  
+
+  
+
+  
+
+  
 
 
 
@@ -454,6 +465,8 @@ Kvalita zdravotních informací na internetu je klíčová pro poskytování spr
 - **Přesnost a spolehlivost:** Informace by měly být vědecky ověřené a aktuální.
 - **Autentičnost zdrojů:** Informace by měly pocházet z důvěryhodných a odborných zdrojů.
 - **Čitelnost a srozumitelnost:** Informace by měly být prezentovány jasným a srozumitelným způsobem.
+
+
 
 
 
@@ -706,10 +719,6 @@ Cílem je **vylepšit vizuální vlastnosti obrazu**:
   
   
   
-  
-  
-  
-  
 
 ### Lineární systémy, impulzní odezva, prostorová invariance
 
@@ -840,6 +849,32 @@ Systém je **prostorově invariantní**, pokud jeho chování je stejné kdekoli
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 6. Objektově orientované programování
 
 ## Základy objektového programování (zapouzdření, dědičnost, polymorfismus)
@@ -859,6 +894,8 @@ Dědičnost umožňuje, aby nová třída (potomek) převzala (zdědila) vlastno
 Polymorfismus znamená, že objekty různých tříd mohou sdílet stejné rozhraní (například metodu `vypiš()`), ale chovat se odlišně podle svého konkrétního typu. Polymorfismus může být statický (přetížení metod – stejný název, různé parametry) nebo dynamický (přepsání metod – potomek poskytuje vlastní implementaci metody z předka).
 
   
+
+
 
 
 
@@ -913,8 +950,6 @@ Nelze přesně ovlivnit, kdy bude paměť uvolněna (GC není deterministický),
 **Moderní garbage collectory** (např. v .NET) používají tzv. „generační“ přístup – rozdělují objekty do několika generací podle délky života, což zefektivňuje samotný proces sběru a minimalizuje výkonnostní dopady na běžící aplikaci.
 
 
-
-
 # 7. Modelování a simulace
 
 **Modelování** je proces vytváření zjednodušeného obrazu reálného systému s cílem jej lépe pochopit, analyzovat nebo předvídat jeho chování.
@@ -944,6 +979,8 @@ Nelze přesně ovlivnit, kdy bude paměť uvolněna (GC není deterministický),
 **Experiment** spočívá v aktivním zásahu do systému, kdy výzkumník mění jednu nebo více proměnných a sleduje, jak tyto změny ovlivní chování systému. Experimenty lze provádět v laboratoři nebo v simulovaném prostředí.
 
 - **Příklad:** Testování účinku nové léčivé látky na skupinu pacientů, měření účinku různých opatření na šíření infekce.
+
+
 
 ## Metodika vytváření modelu a způsoby popisu modelů
 
@@ -1015,6 +1052,20 @@ Dvoudruhové modely se zaměřují na interakci mezi dvěma různými populacemi
 
 - **Model konkurence:** Oba druhy soupeří o stejný omezený zdroj. Model je rozšířením logistické rovnice a zahrnuje vzájemné ovlivňování růstu obou populací.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Model dravec–kořist (model Lotky–Volterry)
 
 Model Lotky–Volterry je klasickým příkladem nelineárního systému dvou diferenciálních rovnic pro vztah dravců a kořisti:
@@ -1061,20 +1112,6 @@ Do modelu je přidána skupina „přenašeči“ (např. komáři u malárie), 
 
 Přidává účinek očkování – očkovaní lidé přecházejí rovnou do skupiny imunních (R), takže se nemohou nakazit ani nemoc šířit.
 
-
-
-
-
-
-
-
-
-
-  
-
-
-  
-
 ## Modely farmakokinetiky a dávkování léčiv
 
 **Farmakokinetika** zkoumá, co se děje s lékem v těle – jak rychle a kam se rozptyluje, jak je odbouráván a vylučován.
@@ -1100,6 +1137,30 @@ Lék se nejprve dostane do krve, odkud se postupně dostává do tkání, a pak 
 **Proč modely potřebujeme?**
 
 Pomáhají určit optimální dávkování léku – kdy a kolik léku podat, aby byl účinný, ale neškodil (například zabránění předávkování nebo naopak nedostatečnému účinku).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1141,6 +1202,8 @@ TCP/IP model je základem internetu a většiny moderních sítí.
 - **Optické kabely:** Pro vysokorychlostní a dlouhé spoje; dělí se na jednovidové (single-mode, dlouhé vzdálenosti) a vícevidové (multi-mode, kratší).
 - **Hub:** Základní síťové zařízení, které rozesílá signál na všechny porty bez ohledu na cílovou adresu (nevytváří oddělené kolizní domény, dnes již nahrazeno switchem).
 
+
+
 ## Adresování na linkové vrstvě (switch, MAC)
 
 **Adresování na linkové vrstvě** je založeno na **MAC adresách**, což jsou unikátní 48bitové identifikátory síťových zařízení.
@@ -1177,7 +1240,7 @@ Kvůli nedostatku adres se využívá NAT a vznikl nový standard IPv6.
 **IPv6** používá 128bitové adresy (např. 2001:0db8:85a3:0000:0000:8a2e:0370:7334), což umožňuje obrovský počet unikátních adres a řeší omezení IPv4.
 
 Navíc podporuje nové mechanismy (automatickou konfiguraci, zabudované zabezpečení, multicast), zjednodušuje směrování a odstranil potřebu NAT.
-  
+
 
 
 
@@ -1214,7 +1277,7 @@ Navíc podporuje nové mechanismy (automatickou konfiguraci, zabudované zabezpe
 **UDP (User Datagram Protocol):** Rychlý, nespolehlivý, nespojovaný protokol. Vhodný pro aplikace, kde je důležitá rychlost a nevadí ztráta paketů (streamování, VoIP, online hry).
 
 **TCP (Transmission Control Protocol):** Spolehlivý, spojovaný protokol. Poskytuje řízení toku, opětovné odesílání ztracených paketů a zajišťuje pořadí doručení. Používá se tam, kde je vyžadována spolehlivost (web, e-mail, přenos souborů).
-  
+
 
 
 
@@ -1255,15 +1318,15 @@ Navíc podporuje nové mechanismy (automatickou konfiguraci, zabudované zabezpe
 - **Client-to-Site:** Umožňuje vzdálenému zařízení připojit se do sítě.
 
 Nejčastější protokoly: **IPSec**, **L2TP**, **OpenVPN**.
-  
-  
-
-
-
-
-
 
   
+
+
+
+
+
+
+
 ## Bezdrátové technologie (WiFi router, architektura bezdrátové sítě, Bluetooth)
 
 **WiFi router:** Přístupový bod pro bezdrátovou síť, často v domácnosti či kanceláři, používá standardy IEEE 802.11.
@@ -1287,6 +1350,24 @@ Zabezpečení počítačových sítí je zásadní pro ochranu dat a systémů p
 - **DoS útoky (Denial of Service):** Cílené přetížení služby nebo sítě, která se stává nedostupnou pro legitimní uživatele.
 - **Zabezpečení DNS:** Implementace DNSSEC, ochrana před podvržením.
 - **Možnosti anonymizace:** VPN, proxy, Tor (směrování přes více uzlů, vysoká anonymita); tyto technologie skrývají skutečnou IP adresu uživatele a chrání soukromí.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1319,6 +1400,8 @@ Hlavní typy testů zahrnují:
 - **Bezpečnostní testy:** Ověření odolnosti vůči hrozbám (penetrace, zranitelnosti).
 
 V moderním vývoji se často využívá **automatizované testování**, kdy jsou testy pravidelně spouštěny například v rámci CI/CD pipeline.
+
+
 
 
 
@@ -1507,6 +1590,16 @@ Zásady návrhu architektury:
 
 
 
+
+
+
+
+
+
+
+
+
+
 # 10. Návrh a vývoj mobilních aplikací
 
 ## Vývojové platformy (iOS, Android, cross-platform)
@@ -1551,7 +1644,9 @@ Operační systémy iOS a Android jsou dvě hlavní platformy pro vývoj mobiln�
 
 
 
-  
+
+
+
 ## Vývojové prostředí, historie a trendy
 
 **iOS**
@@ -1723,7 +1818,7 @@ Digitální podpis je elektronický ekvivalent vlastnoručního podpisu, který 
 ## Časové razítko
 
 Elektronický údaj, který potvrzuje čas vytvoření nebo změny dokumentu. Slouží k prokázání existence dokumentu v daném čase a ochraně proti zpětným změnám.
-  
+
   
 
 
@@ -1758,7 +1853,7 @@ Elektronické zdravotní záznamy se pravidelně zálohují a chrání proti ztr
 ## Ochrana osobních a citlivých údajů v IT
 
 Ochrana údajů v IT zahrnuje šifrování, anonymizaci, kontrolu přístupu a pravidelné bezpečnostní audity. Organizace musí zavést technická a organizační opatření na ochranu údajů před neoprávněným přístupem a zneužitím.
-  
+
 
 
 
@@ -1790,7 +1885,6 @@ Outsourcing IT služeb zahrnuje smluvní ujednání mezi klientem a poskytovatel
 ## Zákon č. 365/2000 Sb. – o informačních systémech veřejné správy a o změně některých dalších zákonů
 
 Zákon o informačních systémech veřejné správy upravuje povinnosti a práva při používání informačních systémů ve veřejné správě. Zákon stanovuje standardy interoperability, bezpečnosti a ochrany údajů v systémech veřejné správy.
-  
 
 
 
@@ -1800,7 +1894,8 @@ Zákon o informačních systémech veřejné správy upravuje povinnosti a práv
 
 
 
-  
+
+
 ## Zákon č. 480/2004 Sb. – o některých službách informační společnosti
 
 Zákon o některých službách informační společnosti upravuje poskytování elektronických komunikačních služeb a ochranu osobních údajů v online prostředí.
